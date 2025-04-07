@@ -1,0 +1,366 @@
+/*
+ * Elite Solutions - Pages Stylesheet
+ */
+
+/* Solutions page */
+.page-header {
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+}
+
+.breadcrumb ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.breadcrumb li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: '>';
+    margin: 0 0.5rem;
+    color: var(--medium-gray);
+}
+
+.breadcrumb a {
+    color: var(--medium-gray);
+}
+
+.breadcrumb li:last-child {
+    color: var(--dark-gray);
+    font-weight: 500;
+}
+
+.solutions-intro {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.solutions-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.solutions-intro p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.solutions-listing {
+    padding: 2rem 0 4rem;
+}
+
+.solutions-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.solution-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.solution-item.reverse {
+    direction: rtl;
+}
+
+.solution-item.reverse .solution-content {
+    direction: ltr;
+}
+
+.solution-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.solution-content h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.solution-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Control Systems page */
+.control-systems-hero {
+    background-image: url('../images/control-systems-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    position: relative;
+}
+
+.control-systems-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.control-systems-hero h1 {
+    position: relative;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.control-tabs {
+    background-color: var(--light-gray);
+    padding: 1rem 0;
+}
+
+.control-tabs .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs-nav li {
+    margin-right: 2rem;
+}
+
+.tabs-nav a {
+    display: block;
+    padding: 0.5rem 0;
+    color: var(--dark-gray);
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tabs-nav a:hover,
+.tabs-nav a.active {
+    color: var(--main-blue);
+    border-bottom-color: var(--main-blue);
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--main-blue);
+    color: var(--white);
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: var(--main-blue-dark);
+    color: var(--white);
+}
+
+.benefits-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.benefits-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.benefits-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.products-section {
+    padding: 4rem 0;
+    background-color: var(--light-gray);
+}
+
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.product-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+    padding: 2rem;
+    background-color: var(--main-blue);
+    color: var(--white);
+    border-radius: 8px;
+}
+
+.product-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.product-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.product-link:hover {
+    background-color: var(--white);
+    color: var(--main-blue);
+}
+
+.product-catalog-link {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.btn-catalog {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--main-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-catalog:hover {
+    background-color: var(--main-blue-dark);
+    color: var(--white);
+}
+
+.why-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.why-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.why-section h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-item {
+    padding: 2rem;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.feature-item h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: var(--main-blue);
+    text-transform: uppercase;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Media queries */
+@media (max-width: 992px) {
+    .solution-item,
+    .product-item {
+        grid-template-columns: 1fr;
+    }
+
+    .solution-item.reverse {
+        direction: ltr;
+    }
+
+    .control-systems-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .control-tabs .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .tabs-nav {
+        flex-wrap: wrap;
+    }
+
+    .tabs-nav li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .solution-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .solution-content p {
+        font-size: 1rem;
+    }
+
+    .control-systems-hero h1 {
+        font-size: 2rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}

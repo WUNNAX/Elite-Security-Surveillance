@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+  <path d="M10 25L30 10L50 25V50H10V25Z" stroke="#074d92" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 50V35H35V50" stroke="#074d92" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M30 35C37.3156 35 43.25 29.0656 43.25 21.75C43.25 14.4344 37.3156 8.5 30 8.5C22.6844 8.5 16.75 14.4344 16.75 21.75C16.75 29.0656 22.6844 35 30 35Z" stroke="#074d92" stroke-width="2"/>
+  <path d="M30 27.25C33.1756 27.25 35.75 24.6756 35.75 21.5C35.75 18.3244 33.1756 15.75 30 15.75C26.8244 15.75 24.25 18.3244 24.25 21.5C24.25 24.6756 26.8244 27.25 30 27.25Z" stroke="#074d92" stroke-width="2"/>
+  <line x1="30" y1="14.25" x2="30" y2="10.75" stroke="#074d92" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="32.75" x2="30" y2="29.25" stroke="#074d92" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20.75" y1="21.5" x2="17.25" y2="21.5" stroke="#074d92" stroke-width="2" stroke-linecap="round"/>
+  <line x1="42.75" y1="21.5" x2="39.25" y2="21.5" stroke="#074d92" stroke-width="2" stroke-linecap="round"/>
+</svg>
